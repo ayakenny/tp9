@@ -1,1 +1,21 @@
-<app-input-decorator-component></app-input-decorator-component>
+<form>
+    <app-input-decorator-component type="text">
+        <input #input type="text" placeholder="Nom" />
+    </app-input-decorator-component>
+    
+    <app-input-decorator-component type="password">
+        <input #input type="password" placeholder="Mot de passe" />
+    </app-input-decorator-component>
+    
+    <app-input-decorator-component type="email">
+        <input #input type="email" placeholder="Email" />
+    </app-input-decorator-component>
+    
+    <app-input-decorator-component type="file">
+        <input #input type="file" />
+    </app-input-decorator-component>
+    
+    <app-input-decorator-component type="textarea">
+        <textarea #input></textarea>
+    </app-input-decorator-component>
+</form>
